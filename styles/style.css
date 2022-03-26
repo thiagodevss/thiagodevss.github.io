@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav{
+    background-color: #07248B;
+    padding: 32px 0;
+}
+h1{
+    font: 500 2rem/1.2 "Roboto",sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font: 400 italic 1.4rem/1 "Roboto",sans-serif;
+    color: #07248B;
+}
+
+li  a::before{
+    content: ">";
+    margin-right: 8px;
+    display: inline-block;
+
+}
