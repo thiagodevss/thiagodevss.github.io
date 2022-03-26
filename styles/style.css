@@ -28,6 +28,10 @@ a{
     color: #07248B;
 }
 
+li{
+    margin-bottom: 12px;
+}
+
 li  a::before{
     content: ">";
     margin-right: 8px;
